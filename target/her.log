@@ -1,0 +1,52 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+2026-08-16 16:16:25.833  INFO 43836 --- [           main] com.hersystem.HerSubsystemApplication    : Starting HerSubsystemApplication v1.0.0 using Java 16.0.2 on Kevin with PID 43836 (C:\work\HerTeamWork\target\her-subsystem-1.0.0.jar started by 59111 in C:\work\HerTeamWork)
+2026-08-16 16:16:25.837  INFO 43836 --- [           main] com.hersystem.HerSubsystemApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-08-16 16:16:27.064  INFO 43836 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82aac3bc-666d-36f7-9d8c-ba63337146c7
+2026-08-16 16:16:27.501  INFO 43836 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8003 (http)
+2026-08-16 16:16:27.513  INFO 43836 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-16 16:16:27.513  INFO 43836 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-08-16 16:16:27.619  INFO 43836 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-08-16 16:16:27.619  INFO 43836 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1660 ms
+2026-08-16 16:16:28.273  INFO 43836 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-08-16 16:16:28.950  INFO 43836 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-08-16 16:16:29.397  WARN 43836 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-08-16 16:16:29.443  INFO 43836 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-08-16 16:16:29.730  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-08-16 16:16:29.753  INFO 43836 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-08-16 16:16:29.813  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-08-16 16:16:29.813  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-08-16 16:16:29.813  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-08-16 16:16:29.813  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-08-16 16:16:29.814  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-08-16 16:16:29.815  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-08-16 16:16:29.815  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-08-16 16:16:30.778  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-08-16 16:16:30.785  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-08-16 16:16:30.790  INFO 43836 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-08-16 16:16:30.799  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1786868190798 with initial instances count: 2
+2026-08-16 16:16:30.802  INFO 43836 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application HER-SUBSYSTEM with eureka with status UP
+2026-08-16 16:16:30.803  INFO 43836 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1786868190803, current=UP, previous=STARTING]
+2026-08-16 16:16:30.805  INFO 43836 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HER-SUBSYSTEM/Kevin:her-subsystem:8003: registering service...
+2026-08-16 16:16:30.858  INFO 43836 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8003 (http) with context path ''
+2026-08-16 16:16:30.860  INFO 43836 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8003
+2026-08-16 16:16:30.893  INFO 43836 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HER-SUBSYSTEM/Kevin:her-subsystem:8003 - registration status: 204
+2026-08-16 16:16:30.970  INFO 43836 --- [           main] com.hersystem.HerSubsystemApplication    : Started HerSubsystemApplication in 5.892 seconds (JVM running for 6.315)
+2026-08-16 16:16:52.935  INFO 43836 --- [nio-8003-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-16 16:16:52.935  INFO 43836 --- [nio-8003-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-16 16:16:52.936  INFO 43836 --- [nio-8003-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-08-16 16:17:22.142  INFO 43836 --- [nio-8003-exec-2] com.hersystem.sso.SsoController          : [SSO] 门户用户 admin(1) 通过 SSO 票据登录本系统
+2026-08-16 16:17:22.163  WARN 43836 --- [nio-8003-exec-6] com.hersystem.sso.SsoController          : [SSO] 票据验签失败: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+2026-08-16 16:17:45.943  INFO 43836 --- [nio-8003-exec-8] com.hersystem.sso.SsoController          : [SSO] 门户用户 admin(1) 通过 SSO 票据登录本系统
+2026-08-16 16:21:29.832  INFO 43836 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-08-16 16:26:29.840  INFO 43836 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-08-16 16:31:04.443  INFO 43836 --- [io-8003-exec-10] com.hersystem.sso.SsoController          : [SSO] 门户用户 admin(1) 通过 SSO 票据登录本系统
+2026-08-16 16:31:29.847  INFO 43836 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-08-16 16:31:51.623  INFO 43836 --- [nio-8003-exec-7] com.hersystem.sso.SsoController          : [SSO] 门户用户 admin(1) 通过 SSO 票据登录本系统
