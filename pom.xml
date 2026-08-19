@@ -19,7 +19,7 @@
     <description>第三方子系统（模拟）- SSO 跳转目标系统</description>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>16</java.version>
         <spring-cloud.version>2021.0.8</spring-cloud.version>
     </properties>
 
